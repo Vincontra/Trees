@@ -29,3 +29,10 @@
 //    }
 //
 //}
+
+// Time Complexity will be :  logN*logN
+// bcoz at max we will traverse for logN times isme like in skew tree and somewhere definately hit that point where lh=rh and
+// beyond that no need for futhere traversal  so for traversal ------> logN
+// at cal height is logN
+// hence it is  logN*logN
+
