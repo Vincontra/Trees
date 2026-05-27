@@ -1,5 +1,13 @@
 import javax.swing.tree.TreeNode;
 public class CeilAndFloor {
+
+    // Lc 2476
+    // worst case we may have time complexity which is O(height*queries)
+    // skew treee me we have height n which can be upto 10^5
+    // so even though the function i wrote has tc as logN
+    // they wont work in case of skew
+    // i guess better would be inorder se array and then uspr binary search that would be nlogn in worst and not n*n
+
     static class TreeNode{
         int val;
         TreeNode left;
