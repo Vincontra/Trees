@@ -17,7 +17,15 @@
 //      }
 //      return func(root.right,tar);
 //  }
-//
-//
-//
+//  public static boolean method2(TreeNode root,int tar){
+// basically this is iterative way to do this
+//      while (root!=null&&root.val!=tar){
+//          int cval=root.val;
+//          if (cval<tar){
+//              root=root.right;
+//          }else{
+//              root=root.left;
+//          }
+//      }
+//  }
 //}
