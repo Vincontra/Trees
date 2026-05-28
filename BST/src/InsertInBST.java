@@ -26,6 +26,4 @@ public class InsertInBST {
             }
             return root;
     }
-
-
 }
