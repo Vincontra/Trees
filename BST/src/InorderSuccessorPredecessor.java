@@ -2,14 +2,12 @@ public class InorderSuccessorPredecessor {
     public static void main(String[] args) {
         int ans[]=new int[1];
         ans[0]=-1;
-
-
     }
-    public static void succcessor(ConstructBSTFromPreorder.TreeNode root,int ans[],int key){
-        if (root==null){
+    public static void succcessor(ConstructBSTFromPreorder.TreeNode root,int ans[],int key) {
+        if (root==null) {
             return;
         }
-        if (root.val<=key){
+        if (root.val<=key) {
             succcessor(root.right,ans,key);
         }
         else{
