@@ -10,8 +10,6 @@ public class ConstructBSTFromPreorder {
     public static void main(String[] args) {
         // 8 5 1 7 10 12
 
-
-
     }
     public static TreeNode func(int arr[],int upBound,int i[]){
         if (i[0]==arr.length||arr[i[0]]>upBound){
